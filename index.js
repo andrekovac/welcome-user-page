@@ -6,7 +6,7 @@ const title = document.getElementById("title");
 /**
  * Example of a simple function
  */
-const y = (x) => x * x;
+const root = (x) => x * x;
 
 /**
  * function 1
@@ -14,7 +14,7 @@ const y = (x) => x * x;
 const getName = (i1, i2) => i1 + " " + i2;
 
 /**
- * function 2
+ * function 2 - the max function
  */
 const addName = (a, b) => {
   const x = getName(a, b);
