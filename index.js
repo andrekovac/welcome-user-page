@@ -4,20 +4,22 @@ const loginButton = document.getElementById("login-button");
 const title = document.getElementById("title");
 
 /**
- * Example of a simple function
+ * Squaring a given number
  */
-const root = (x) => x * x;
+const square = (num) => num * num;
+
+square(5);
 
 /**
  * function 1
  */
-const getName = (i1, i2) => i1 + " " + i2;
+const getFullName = (firstName, lastName) => firstName + " " + lastName;
 
 /**
  * function 2 - the max function
  */
 const addName = (a, b) => {
-  const x = getName(a, b);
+  const x = getFullName(a, b);
   title.innerHTML = "Welcome, " + x;
 };
 
