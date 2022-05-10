@@ -21,9 +21,18 @@ const addName = (a, b) => {
   title.innerHTML = "Welcome, " + x;
 };
 
+const handleValueChange = () => {
+  var x = document.getElementById("fname").value;
+  var y = document.getElementById("lname").value;
+  addName(x, y);
+};
+
 /**
  * Waiting for a click
  */
 loginButton.addEventListener("click", () => {
   addName("André", "Kovac");
+
+  // Alternative:
+  // handleValueChange();
 });
